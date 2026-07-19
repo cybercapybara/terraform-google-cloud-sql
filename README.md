@@ -8,7 +8,7 @@ PostgreSQL or MySQL instance with configurable tier, disk and availability.
 
 ```hcl
 module "cloud_sql" {
-  source = "github.com/cybercapybara/terraform-google-cloud-sql"
+  source = "github.com/moveeeax/terraform-google-cloud-sql"
 
   project_id       = var.project_id
   name             = "prod-db"
